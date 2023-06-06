@@ -3,14 +3,19 @@
     padding: 0;
     font-family: sans-serif;
 }
+:root{
+    --white:#f5f5f5;
+}
 body{
+    /* font-size: 1.1rem; */
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color: #da0000;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 50px;
+    color: var(--white);
 }
 .card-group{
     margin-top: 10px;
@@ -29,10 +34,9 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: chartreuse;
-    border: 10px black solid;
+    background-color: #00be00;
+    border: 10px var(--white) solid;
     text-decoration: none;
-    color: black;
     text-align: center;
     justify-content: center;
     align-items: center;
