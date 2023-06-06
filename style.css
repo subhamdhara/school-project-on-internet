@@ -10,11 +10,13 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 50px;
 }
 .card-group{
     margin-top: 10px;
     margin-bottom: 10px;
     /* display: inline-block; */
+    margin: 50px;
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: ; */
@@ -95,14 +97,20 @@ ul{
 
 }
 
-@media (max-width:780px) {
+@media (max-width:980px) {
+    body{
+        font-size: 2.5rem;
+    }
     .card{
         transition: 1s;
+        width: 400px;
+        height: 400px;
+        max-height: 4000000000px;
 
     }
     .card:hover{
-        height: 456px;
-        width: 150px;
+        height: 980px;
+        /* width: 200px; */
     }
     
 }
